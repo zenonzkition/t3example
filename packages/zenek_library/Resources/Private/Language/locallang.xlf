@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:zenek_library/Resources/Private/Language/locallang.xlf" date="2022-12-01T13:13:10Z" product-name="zenek_library">
+		<header/>
+		<body>
+			<trans-unit id="tx_zeneklibrary_domain_model_author" resname="tx_zeneklibrary_domain_model_author">
+				<source>Author</source>
+			</trans-unit>
+			<trans-unit id="tx_zeneklibrary_domain_model_author.first_name" resname="tx_zeneklibrary_domain_model_author.first_name">
+				<source>First Name</source>
+			</trans-unit>
+			<trans-unit id="tx_zeneklibrary_domain_model_author.last_name" resname="tx_zeneklibrary_domain_model_author.last_name">
+				<source>Last Name</source>
+			</trans-unit>
+			<trans-unit id="tx_zeneklibrary_domain_model_author.photo" resname="tx_zeneklibrary_domain_model_author.photo">
+				<source>Photo</source>
+			</trans-unit>
+			<trans-unit id="tx_zeneklibrary_domain_model_book" resname="tx_zeneklibrary_domain_model_book">
+				<source>Book</source>
+			</trans-unit>
+			<trans-unit id="tx_zeneklibrary_domain_model_book.title" resname="tx_zeneklibrary_domain_model_book.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_zeneklibrary_domain_model_book.description" resname="tx_zeneklibrary_domain_model_book.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_zeneklibrary_domain_model_book.cover" resname="tx_zeneklibrary_domain_model_book.cover">
+				<source>Cover</source>
+			</trans-unit>
+			<trans-unit id="tx_zeneklibrary_domain_model_book.author" resname="tx_zeneklibrary_domain_model_book.author">
+				<source>Author</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

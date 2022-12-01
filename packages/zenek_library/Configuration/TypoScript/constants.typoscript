@@ -1,0 +1,29 @@
+plugin.tx_zeneklibrary_bookslist {
+    view {
+        # cat=plugin.tx_zeneklibrary_bookslist/file; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:zenek_library/Resources/Private/Templates/
+        # cat=plugin.tx_zeneklibrary_bookslist/file; type=string; label=Path to template partials (FE)
+        partialRootPath = EXT:zenek_library/Resources/Private/Partials/
+        # cat=plugin.tx_zeneklibrary_bookslist/file; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:zenek_library/Resources/Private/Layouts/
+    }
+    persistence {
+        # cat=plugin.tx_zeneklibrary_bookslist//a; type=string; label=Default storage PID
+        storagePid =
+    }
+}
+
+module.tx_zeneklibrary_library {
+    view {
+        # cat=module.tx_zeneklibrary_library/file; type=string; label=Path to template root (BE)
+        templateRootPath = EXT:zenek_library/Resources/Private/Backend/Templates/
+        # cat=module.tx_zeneklibrary_library/file; type=string; label=Path to template partials (BE)
+        partialRootPath = EXT:zenek_library/Resources/Private/Backend/Partials/
+        # cat=module.tx_zeneklibrary_library/file; type=string; label=Path to template layouts (BE)
+        layoutRootPath = EXT:zenek_library/Resources/Private/Backend/Layouts/
+    }
+    persistence {
+        # cat=module.tx_zeneklibrary_library//a; type=string; label=Default storage PID
+        storagePid =
+    }
+}

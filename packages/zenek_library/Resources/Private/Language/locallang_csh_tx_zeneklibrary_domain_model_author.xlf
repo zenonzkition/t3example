@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:zenek_library/Resources/Private/Language/locallang_csh_tx_zeneklibrary_domain_model_author.xlf" date="2022-12-01T13:13:10Z" product-name="zenek_library">
+		<header/>
+		<body>
+			<trans-unit id="first_name.description" resname="first_name.description">
+				<source>firstName</source>
+			</trans-unit>
+			<trans-unit id="last_name.description" resname="last_name.description">
+				<source>lastName</source>
+			</trans-unit>
+			<trans-unit id="photo.description" resname="photo.description">
+				<source>photo</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
